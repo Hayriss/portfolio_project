@@ -10,8 +10,10 @@ import "swiper/css/pagination";
 // import required modules
 import { EffectCoverflow, Pagination } from "swiper";
 
-import BeginnerProject from "../assets/beginner_project.jpg";
-import RealEstate from "../assets/realestate.jpg";
+import BeginnerTailwindCss from "../assets/beginner_tailwindcss.JPG";
+import Universe from "../assets/universe_app.JPG";
+import Weather from "../assets/weather_app.JPG";
+import Portfolio from "../assets/portfolio_project.JPG";
 
 export default function Carousel() {
   return (
@@ -34,13 +36,13 @@ export default function Carousel() {
       >
         <SwiperSlide>
           <div
-            style={{ backgroundImage: `url(${BeginnerProject})` }}
+            style={{ backgroundImage: `url(${BeginnerTailwindCss})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effect */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                React JS Application
+                Beginner Tailwindcss
               </span>
               <div className="pt-8 text-center">
                 <a href="https://rococo-biscochitos-9a4d98.netlify.app/">
@@ -59,21 +61,21 @@ export default function Carousel() {
         </SwiperSlide>
         <SwiperSlide>
           <div
-            style={{ backgroundImage: `url(${BeginnerProject})` }}
+            style={{ backgroundImage: `url(${Universe})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effect */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                React JS Application
+                Universe Travel
               </span>
               <div className="pt-8 text-center">
-                <a href="https://rococo-biscochitos-9a4d98.netlify.app/">
+                <a href="https://thriving-swan-cc272d.netlify.app/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-gray-200 text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="https://github.com/Hayriss/beginner-tailwind-project">
+                <a href="https://github.com/Hayriss/universe">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-gray-200 text-gray-700 font-bold text-lg">
                     Code
                   </button>
@@ -84,21 +86,46 @@ export default function Carousel() {
         </SwiperSlide>
         <SwiperSlide>
           <div
-            style={{ backgroundImage: `url(${RealEstate})` }}
+            style={{ backgroundImage: `url(${Weather})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effect */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                React JS Application
+                Beginner Weather App
               </span>
               <div className="pt-8 text-center">
-                <a href="https://rococo-biscochitos-9a4d98.netlify.app/">
+                <a href="https://funny-belekoy-5b7001.netlify.app/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-gray-200 text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="https://github.com/Hayriss/beginner-tailwind-project">
+                <a href="https://github.com/Hayriss/beginner-weather-app">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-gray-200 text-gray-700 font-bold text-lg">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div
+            style={{ backgroundImage: `url(${Portfolio})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            {/* Hover Effect */}
+            <div className="opacity-0 group-hover:opacity-100">
+              <span className="text-2xl font-bold text-white tracking-wider">
+                Portfolio Project
+              </span>
+              <div className="pt-8 text-center">
+                <a href="https://mellow-dusk-310dcf.netlify.app/">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-gray-200 text-gray-700 font-bold text-lg">
+                    Demo
+                  </button>
+                </a>
+                <a href="https://github.com/Hayriss/portfolio_project">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-gray-200 text-gray-700 font-bold text-lg">
                     Code
                   </button>
